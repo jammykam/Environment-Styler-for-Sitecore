@@ -1,0 +1,46 @@
+﻿@import 'environment-override-PROD.css';
+
+/* -------------------------- */
+/* Local - Color: black/green */
+/* -------------------------- */
+
+.logo-wrap::after,
+.sc-globalHeader::before {
+	content: "Local Developer";
+    color: red;
+}
+
+ul.sc-accountInformation li a.logout,
+.sc-globalHeader .sc-accountInformation .logout {
+	color: #fff;
+}
+
+
+/*** 
+ CSS Animated backgrounds!
+***/
+
+.sc-globalHeader,
+.login-main-wrap {
+	background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet, red);
+	background-size: 1600% 1600%;
+	-webkit-animation: RainbowAnimation 30s ease infinite;
+	-moz-animation: RainbowAnimation 30s ease infinite;
+	animation: RainbowAnimation 30s ease infinite;
+}
+
+@-webkit-keyframes RainbowAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes RainbowAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes RainbowAnimation { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

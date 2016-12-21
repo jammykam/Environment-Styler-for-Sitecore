@@ -1,0 +1,46 @@
+﻿@import 'environment-override-PROD.css';
+
+/* -------------------------- */
+/* Local - Color: black/green */
+/* -------------------------- */
+
+.logo-wrap::after,
+.sc-globalHeader::before {
+	content: "Local Developer";
+    color: red;
+}
+
+.sc-globalHeader {
+    background-color: red;
+	background: repeating-linear-gradient(to right, red 5%, orange 10%, yellow 15%, green 20%, blue 25%, indigo 30%, violet 35%, red 40%);
+}
+
+ul.sc-accountInformation li a.logout,
+.sc-globalHeader .sc-accountInformation .logout {
+	color: #fff;
+}
+
+.logo-wrap::before {
+	display: block;
+    background: url('http://kingofwallpapers.com/gnome/gnome-010.jpg') repeat-x center center;
+    background-size: contain;
+    height: 55px;
+    content: " ";
+	margin-bottom: 10px;
+}
+
+.login-main-wrap {
+	background: repeating-linear-gradient(to right, red 5%, orange 10%, yellow 15%, green 20%, blue 25%, indigo 30%, violet 35%, red 40%);
+    /* This one will put you in a trance!
+    background: repeating-radial-gradient(circle, red,orange 5%,yellow 10%,green 15%,blue 20%,indigo 25%,violet 30%, red 35%);
+    */
+}
+
+.login-box::after {
+    display: block;
+    background: url(http://i.imgur.com/bsDIH1o.gif) no-repeat center center;
+    background-size: contain;
+    height: 275px;
+    content: " ";
+    margin-bottom: -50px;
+}

@@ -1,0 +1,70 @@
+﻿/*** 
+The default styles are set in the PROD stylesheet, we can import that
+and override for environment specific
+***/
+@import 'environment-override-PROD.css';
+
+/* -------------------------- */
+/* Local - Color: matrix      */
+/* -------------------------- */
+
+/*** 
+ This changes the labels that are used, set the 'content' to whatever text you want 
+***/
+.logo-wrap:after,
+.sc-globalHeader:before {
+	content: "Local Developer";
+    color: #00FF00;
+}
+
+/*** 
+ This sets the background of the header bar. You can use solid colour, CSS gradients or background images
+***/
+.sc-globalHeader {
+    /*background-color: #0000CD; 
+	background: radial-gradient(circle, #000,#00FF00,#000);*/ 
+    background-image: url('matrix.png');
+}
+
+/*** 
+ If the color of the logout link clashes if your background then change it using this class
+***/
+ul.sc-accountInformation li a.logout,
+.sc-globalHeader .sc-accountInformation .logout {
+	color: #fff;
+}
+
+/*** 
+ This changes the backdrop of the login screen. You can use solid colours, CSS gradient, CSS animations or images
+***/
+.login-main-wrap {
+	/* background-color: rgba(148,0,211,0.5);
+       background: repeating-linear-gradient(to bottom right, #000 15%, #00FF00 30%, #000 45%); */
+	background: url('matrix.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*** 
+ This changes the background colour of the login box background
+***/
+.login-box {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*** 
+ Want to add a client specific logo on the login screen? We can do that using this class...
+***/
+.logo-wrap::before {
+	display: block;
+    background: url('https://dummyimage.com/175x35/00ff00/000000&text=Custom+Client+Logo!') no-repeat center center;
+    background-size: contain;
+    height: 35px;
+    content: " ";
+}
+
+/*** 
+ Don't want the default Sitecore logo on the login screen? Hide it with this class...
+***/
+/*.logo-wrap img {
+    display: none;
+}*/

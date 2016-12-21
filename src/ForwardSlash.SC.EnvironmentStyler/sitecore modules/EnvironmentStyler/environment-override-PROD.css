@@ -1,0 +1,28 @@
+﻿.logo-wrap::after,
+.sc-globalHeader::before {
+    color: #fff;
+    font-weight: bold;
+	font-size: 1.6em;
+	content: "Production";
+	text-transform: uppercase;
+	position: absolute;
+	margin-left: 60px;
+}
+
+.logo-wrap::after {
+	position: relative;
+	font-size: 3em;
+	margin: 0;
+	display: block;
+}
+
+/*** 
+If you you want to display a custom client logo then set it here
+***/
+/*.logo-wrap::before {
+	display: block;
+    background: url('/path/to/client-logo.png') no-repeat center center;
+    background-size: contain;
+    height: 35px;
+    content: " ";
+}*/

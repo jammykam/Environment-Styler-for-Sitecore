@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<!--
+  Purpose: Removes the custom pipelines for CD environments. 
+           You've removed access to the CMS client on the CD environment right?
+           Go and remove access now, and change the admin password to something other than "b" before Bobby Hack attacks!
+-->
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/" xmlns:set="http://www.sitecore.net/xmlconfig/set/">
+  <sitecore>
+
+    <pipelines>
+      <speak.client.getPageStylesheets>
+        <processor desc="FS.EnvironmentStyler">
+          <patch:delete />
+        </processor>
+      </speak.client.getPageStylesheets>
+    </pipelines>
+
+    <pageextenders>
+      <pageextender desc="FS.EnvironmentStyler">
+        <patch:delete />
+      </pageextender>
+    </pageextenders>
+
+  </sitecore>
+</configuration>

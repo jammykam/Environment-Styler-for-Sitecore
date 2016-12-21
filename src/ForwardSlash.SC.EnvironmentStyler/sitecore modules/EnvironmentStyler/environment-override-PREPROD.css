@@ -1,0 +1,20 @@
+﻿@import 'environment-override-PROD.css';
+
+/* ---------------------------- */
+/* Pre-PROD - Color: red/orange */
+/* ---------------------------- */
+
+.logo-wrap::after,
+.sc-globalHeader::before {
+	content: "Pre-Prod";
+}
+
+.sc-globalHeader {
+    background-color: #FF0000;
+	background: radial-gradient(circle, #FF0000, #FF8C00, #FF0000);
+}
+
+.login-main-wrap {
+	background-color: rgba(255,0,0,0.5);
+    background: repeating-linear-gradient(to bottom right,  #FF0000 15%, #FF8C00 30%, #FF0000 45%);
+}

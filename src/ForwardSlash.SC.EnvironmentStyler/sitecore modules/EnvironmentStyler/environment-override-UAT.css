@@ -1,0 +1,24 @@
+﻿@import 'environment-override-PROD.css';
+
+/* ------------------------ */
+/* UAT - Color: orange      */
+/* ------------------------ */
+
+.logo-wrap::after,
+.sc-globalHeader::before {
+	content: "User Acceptance Testing";
+}
+
+.logo-wrap::after {
+	font-size: 32px;
+}
+
+.sc-globalHeader {
+    background-color: #006400;
+	background: radial-gradient(circle, #006400, #32CD32, #006400);
+}
+
+.login-main-wrap {
+	background-color: rgba(0,100,0,0.5);
+    background: repeating-linear-gradient(to bottom right, #006400 15%, #32CD32 30%, #006400 45%);
+}
