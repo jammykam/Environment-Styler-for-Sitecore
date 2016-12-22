@@ -72,7 +72,9 @@
     <Compile Include="InsertCustomSpeakResource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\SC.EnvironmentStyler.config" />
   </ItemGroup>
