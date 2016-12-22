@@ -39,6 +39,7 @@ namespace ForwardSlash.SC.EnvironmentStyler
                     if (pageControl is System.Web.UI.HtmlControls.HtmlHead)
                     {
                         pageControl.Controls.Add(control);
+                        break;
                     }
                 }
             }
