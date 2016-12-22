@@ -6,15 +6,15 @@
 
 .logo-wrap::after,
 .sc-globalHeader::before {
-	content: "Test";
+    content: "Test";
 }
 
-.sc-globalHeader { 
+.sc-globalHeader {
     background-color: #1E90FF;
-	background: radial-gradient(circle, #1E90FF, #4169E1, #1E90FF);
+    background: radial-gradient(circle, #1E90FF, #4169E1, #1E90FF);
 }
 
 .login-main-wrap {
-	background-color: rgba(17,128,159,0.5);
+    background-color: rgba(17,128,159,0.5);
     background: repeating-linear-gradient(to bottom right, #1E90FF 15%, #4169E1 30%, #1E90FF 45%);
 }

@@ -1,20 +1,20 @@
 ﻿@import 'environment-override-PROD.css';
-	
+
 /* ------------------------ */
 /* DEV - Color: Purple      */
 /* ------------------------ */
 
 .logo-wrap::after,
 .sc-globalHeader::before {
-	content: "DEV";
+    content: "DEV";
 }
 
 .sc-globalHeader {
     background-color: #9400D3;
-	background: radial-gradient(circle, #9400D3, #3a103a, #9400D3);
+    background: radial-gradient(circle, #9400D3, #3a103a, #9400D3);
 }
 
 .login-main-wrap {
-	background-color: rgba(148,0,211,0.5);
-	background: radial-gradient(circle, #9400D3, #3a103a, #9400D3);
+    background-color: rgba(148,0,211,0.5);
+    background: radial-gradient(circle, #9400D3, #3a103a, #9400D3);
 }

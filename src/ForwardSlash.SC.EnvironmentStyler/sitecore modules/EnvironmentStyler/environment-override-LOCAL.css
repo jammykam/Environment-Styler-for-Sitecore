@@ -13,7 +13,7 @@ and override for environment specific
 ***/
 .logo-wrap:after,
 .sc-globalHeader:before {
-	content: "Local Developer";
+    content: "Local Developer";
     color: #00FF00;
 }
 
@@ -22,25 +22,25 @@ and override for environment specific
 ***/
 .sc-globalHeader {
     /*background-color: #0000CD; 
-	background: radial-gradient(circle, #000,#00FF00,#000);*/ 
+    background: radial-gradient(circle, #000,#00FF00,#000);*/
     background-image: url('matrix.png');
 }
 
-/*** 
+    /*** 
  If the color of the logout link clashes if your background then change it using this class
 ***/
-ul.sc-accountInformation li a.logout,
-.sc-globalHeader .sc-accountInformation .logout {
-	color: #fff;
-}
+    ul.sc-accountInformation li a.logout,
+    .sc-globalHeader .sc-accountInformation .logout {
+        color: #fff;
+    }
 
 /*** 
  This changes the backdrop of the login screen. You can use solid colours, CSS gradient, CSS animations or images
 ***/
 .login-main-wrap {
-	/* background-color: rgba(148,0,211,0.5);
+    /* background-color: rgba(148,0,211,0.5);
        background: repeating-linear-gradient(to bottom right, #000 15%, #00FF00 30%, #000 45%); */
-	background: url('matrix.jpg') no-repeat center center fixed;
+    background: url('matrix.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -55,7 +55,7 @@ ul.sc-accountInformation li a.logout,
  Want to add a client specific logo on the login screen? We can do that using this class...
 ***/
 .logo-wrap::before {
-	display: block;
+    display: block;
     background: url('https://dummyimage.com/175x35/00ff00/000000&text=Custom+Client+Logo!') no-repeat center center;
     background-size: contain;
     height: 35px;
