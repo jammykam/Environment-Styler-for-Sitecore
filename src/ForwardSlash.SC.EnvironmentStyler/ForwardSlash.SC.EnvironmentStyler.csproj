@@ -76,10 +76,10 @@
     <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\SC.EnvironmentStyler.config" />
+    <Content Include="App_Config\Include\Feature\EnvironmentStyler\SC.EnvironmentStyler.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App_Config\Include\SC.EnvironmentStyler.WebCD.config.disabled" />
+    <Content Include="App_Config\Include\Feature\EnvironmentStyler\SC.EnvironmentStyler.WebCD.config.disabled" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
