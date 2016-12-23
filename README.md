@@ -15,6 +15,8 @@ Default values are:
 
 You can use whatever value you want, just ensure a matching CSS file is located in _/sitecore modules/EnvironmentStyler/_ folder in the format `environment-override-$(sc.Environment).css`. You can also edit the existing CSS files to change the styles to suit your own requirements.
 
+Tested on Sitecore 8.0.3, 8.0.7, 8.1.3, 8.2.0 and 8.2.1
+
 **Login Screen**
 
 ![Login Screen](screenshots/login-screen.png?raw=true "Login Screen")
