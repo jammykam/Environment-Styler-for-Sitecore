@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Sitecore.Environment.Styler</id>
+        <version>1.0.0</version>
+        <title>Environment Styler for Sitecore</title>
+        <authors>Kamruz Jaman</authors>
+        <owners>Kamruz Jaman</owners>
+        <licenseUrl>https://github.com/jammykam/Environment-Styler-for-Sitecore/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/jammykam/Environment-Styler-for-Sitecore</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Module to allow environment specific styling (and text) on login screen and header ribbon for Sitecore 8+</description>
+        <releaseNotes>Additional detail can be found in this blog post: http://wp.me/p2SmN4-e3</releaseNotes>
+        <language>en-GB</language>
+        <tags>Sitecore Environment Styling</tags>
+    </metadata>
+    <files>
+        <file src="ForwardSlash.SC.EnvironmentStyler\App_Config\Include\Feature\EnvironmentStyler\SC.EnvironmentStyler.config" target="content\App_Config\Include\Feature\EnvironmentStyler\SC.EnvironmentStyler.config" />
+        <file src="ForwardSlash.SC.EnvironmentStyler\App_Config\Include\Feature\EnvironmentStyler\SC.EnvironmentStyler.WebCD.config.disabled" target="content\App_Config\Include\Feature\EnvironmentStyler\SC.EnvironmentStyler.WebCD.config.disabled" />
+        <file src="ForwardSlash.SC.EnvironmentStyler\sitecore modules\EnvironmentStyler\environment-override-ANIMATED.css" target="content\sitecore modules\EnvironmentStyler\environment-override-ANIMATED.css" />
+        <file src="ForwardSlash.SC.EnvironmentStyler\sitecore modules\EnvironmentStyler\environment-override-DEV.css" target="content\sitecore modules\EnvironmentStyler\environment-override-DEV.css" />
+        <file src="ForwardSlash.SC.EnvironmentStyler\sitecore modules\EnvironmentStyler\environment-override-LOCAL.css" target="content\sitecore modules\EnvironmentStyler\environment-override-LOCAL.css" />
+        <file src="ForwardSlash.SC.EnvironmentStyler\sitecore modules\EnvironmentStyler\environment-override-PREPROD.css" target="content\sitecore modules\EnvironmentStyler\environment-override-PREPROD.css" />
+        <file src="ForwardSlash.SC.EnvironmentStyler\sitecore modules\EnvironmentStyler\environment-override-PROD.css" target="content\sitecore modules\EnvironmentStyler\environment-override-PROD.css" />
+        <file src="ForwardSlash.SC.EnvironmentStyler\sitecore modules\EnvironmentStyler\environment-override-RAINBOW.css" target="content\sitecore modules\EnvironmentStyler\environment-override-RAINBOW.css" />
+        <file src="ForwardSlash.SC.EnvironmentStyler\sitecore modules\EnvironmentStyler\environment-override-TEST.css" target="content\sitecore modules\EnvironmentStyler\environment-override-TEST.css" />
+        <file src="ForwardSlash.SC.EnvironmentStyler\sitecore modules\EnvironmentStyler\environment-override-UAT.css" target="content\sitecore modules\EnvironmentStyler\environment-override-UAT.css" />
+        <file src="ForwardSlash.SC.EnvironmentStyler\sitecore modules\EnvironmentStyler\matrix.jpg" target="content\sitecore modules\EnvironmentStyler\matrix.jpg" />
+        <file src="ForwardSlash.SC.EnvironmentStyler\sitecore modules\EnvironmentStyler\matrix.png" target="content\sitecore modules\EnvironmentStyler\matrix.png" />
+        <file src="ForwardSlash.SC.EnvironmentStyler\bin\ForwardSlash.SC.EnvironmentStyler.dll" target="lib\net452\ForwardSlash.SC.EnvironmentStyler.dll" />
+    </files>
+</package>
